@@ -113,11 +113,11 @@ creating a `Vagrantfile` in the top level of this directory (it is gitignored)
 and add the following line to your `Vagrantfile`
 
 ```ruby
-Vagrant.require_plugin "vagrant-aws"
+Vagrant.require_plugin "vagrant-vrealize"
 ```
 Use bundler to execute Vagrant:
 ```
-$ bundle exec vagrant up --provider=aws
+$ bundle exec vagrant up --provider=vrealize
 ```
 
 ## And Finally
