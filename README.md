@@ -7,7 +7,7 @@ VRealize.
 **NOTE:** This plugin requires Vagrant 1.2+,
 
 **NOTE MORE:** This plugin is a work in progress.  The basics work, but it's
-noot as fully-featured as the `vagrant-aws` plugin it's largely based on.
+not as fully-featured as the `vagrant-aws` plugin it's largely based on.
 
 ## What works
 
@@ -23,13 +23,13 @@ installing, `vagrant up` and specify the `vrealize` provider. An
 example is shown below.
 
 ```
-$ vagrant plugin install vagrant-aws
+$ vagrant plugin install vagrant-vrealize
 ...
-$ vagrant up --provider=aws
+$ vagrant up --provider=vrealize
 ...
 ```
 
-Of course prior to doing this, you'll need to obtain a
+Of course, prior to doing this, you'll need to obtain a
 VRealize-compatible box file for Vagrant.
 
 ## Quick Start
@@ -79,7 +79,7 @@ Vagrant.configure("2") do |config|
 end
 ```
 
-And then run `vagrant up --provider=aws`.
+And then run `vagrant up --provider=vrealize`.
 
 ## Networks
 
@@ -129,3 +129,4 @@ which can be found here: https://github.com/mitchellh/vagrant-aws.
 ## Author
 
 Alex Young <Alexander.Young@sky.uk>
+Please get in touch, raise issues, make pull requests, if you're trying to use this and running into problems.
