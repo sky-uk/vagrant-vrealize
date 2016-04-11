@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.name          = "vagrant-vrealize"
   s.version       = VagrantPlugins::Vrealize::VERSION
   s.platform      = Gem::Platform::RUBY
-  s.license       = "MIT"
+  s.license       = "BSD-3-Clause"
   s.authors       = "Mitchell Hashimoto"
   s.email         = "mitchell@hashicorp.com"
   s.homepage      = "http://www.vagrantup.com"
