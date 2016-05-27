@@ -1,6 +1,5 @@
 require "log4r"
 require 'vra'
-require 'pry'
 
 require 'vagrant-vrealize/vra_client'
 
