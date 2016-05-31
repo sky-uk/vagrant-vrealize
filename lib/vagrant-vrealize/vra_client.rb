@@ -6,7 +6,8 @@ module VagrantPlugins
     class VraClient
 
       def self.build(vra_params)
-        new(Vra::Client.new(vra_params))
+        pagination_bugfix_params = {page_size: 100}.merge(vra_params)
+        new(Vra::Client.new(pagination_bugfix_params))
       end
 
 
@@ -122,7 +123,7 @@ module VagrantPlugins
       private
       def done?
         begin
-          @request.refresh
+          @request.refresh # TODO - this can except if Service Temporarily Unavailable
           @request.status == "SUCCESSFUL"
         end
       end
