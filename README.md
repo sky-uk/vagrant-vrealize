@@ -120,6 +120,8 @@ Use bundler to execute Vagrant:
 $ bundle exec vagrant up --provider=vrealize
 ```
 
+[![Dependency Status](https://dependencyci.com/github/sky-uk/vagrant-vrealize/badge)](https://dependencyci.com/github/sky-uk/vagrant-vrealize)
+
 ## And Finally
 
 This plugin is an unfinished work-in-progress. It (and large parts of
