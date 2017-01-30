@@ -101,7 +101,8 @@ module VagrantPlugins
 
       def machine
         if done?
-          @request.resources.first
+          # expecting only one VM, but should check and error out if there are more
+          @request.resources.select { |a| a.vm? }.first
         end
       end
 
