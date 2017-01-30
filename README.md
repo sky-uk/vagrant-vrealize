@@ -1,6 +1,6 @@
 # Vagrant VRealize Provider
 
-This is a [Vagrant](http://www.vagrantup.com) 1.2+ plugin that adds a VDC
+This is a [Vagrant](http://www.vagrantup.com) 1.2+ plugin that adds a VMware vRealize Automation 
 provider to Vagrant, allowing Vagrant to control and provision machines in
 VRealize.
 
