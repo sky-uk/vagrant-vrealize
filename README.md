@@ -6,7 +6,11 @@ VRealize.
 
 **NOTE:** This plugin requires Vagrant 1.2+,
 
-**NOTE MORE:** This plugin is a work in progress.  The basics work, but it's
+**NOTE MORE:**
+The version of the vmware-vra gem is locked to < 2.0.0 - as such this will only work with vRA 6.X.
+Remove the restriction in the gemspec to use the latest vmware-vra gem for vRA 7.X
+
+**NOTE EVEN MORE:** This plugin is a work in progress.  The basics work, but it's
 not as fully-featured as the `vagrant-aws` plugin it's largely based on.
 
 ## What works
