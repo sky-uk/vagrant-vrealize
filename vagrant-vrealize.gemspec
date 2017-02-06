@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = ">= 1.3.6"
 
-  s.add_runtime_dependency "vmware-vra"
+  s.add_runtime_dependency "vmware-vra", "< 2.0.0"
 
   s.add_development_dependency "rake"
 
