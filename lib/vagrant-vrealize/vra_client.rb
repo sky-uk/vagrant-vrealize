@@ -6,7 +6,7 @@ module VagrantPlugins
     class VraClient
 
       def self.build(vra_params)
-        pagination_bugfix_params = {page_size: 100}.merge(vra_params)
+        pagination_bugfix_params = {page_size: 99999}.merge(vra_params)
         new(Vra::Client.new(pagination_bugfix_params))
       end
 
