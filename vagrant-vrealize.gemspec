@@ -6,17 +6,17 @@ Gem::Specification.new do |s|
   s.version       = VagrantPlugins::Vrealize::VERSION
   s.platform      = Gem::Platform::RUBY
   s.license       = "BSD-3-Clause"
-  s.authors       = ["Alex Young"]
-  s.email         = "Alexander.Young@sky.uk"
+  s.authors       = ["Alex Young" , "David Stark"]
+  s.email         = ["Alexander.Young@sky.uk" , "david.stark@sky.uk"]
   s.homepage      = "https://github.com/sky-uk/vagrant-vrealize"
-  s.summary       = "Enables Vagrant to manage machines in VMware VRealize."
+  s.summary       = "Vagrant plugin for VRealize."
   s.description   = "Enables Vagrant to manage machines in VMware VRealize."
 
   s.required_rubygems_version = ">= 1.3.6"
 
-  s.add_runtime_dependency "vmware-vra", "< 2.0.0"
+  s.add_runtime_dependency "vmware-vra", "~> 2.0"
 
-  s.add_development_dependency "rake"
+  s.add_development_dependency "rake", "~> 0"
 
   s.files         = Dir.glob("{lib,example_box,locales}/**/*") +
     %w{LICENSE README.md Rakefile CONTRIBUTING.md}
